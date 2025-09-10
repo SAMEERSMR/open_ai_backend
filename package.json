@@ -4,7 +4,7 @@
   "description": "Real-time English to Hindi translation using OpenAI Realtime API",
   "main": "server.js",
   "scripts": {
-    "start": "cd frontend && npm run build && cd .. && node server.js",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
